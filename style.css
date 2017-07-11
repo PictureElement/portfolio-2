@@ -35,6 +35,15 @@ p {
   font-family: 'Arvo', serif;
 }
 
+a {
+  color: #a0a0a0;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 #skills ul {
   list-style-type: none;
 }
