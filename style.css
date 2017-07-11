@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow: 0 3px black;
+  text-shadow: 0 2px black;
 }
 
 body {
@@ -12,4 +12,29 @@ body {
   font: 1rem/1.5 'Lato', sans-serif;
   background-color: #eeeeee;
   color: #a0a0a0;
+}
+
+h1 {
+  font-size: 2.5rem; /* 40px */
+  color: #de1b1b;
+}
+
+h2 {
+  color: black;
+  border-bottom: 1px solid black;
+  font-family: 'Arvo', serif;
+  font-size: 2rem; /* 32px */
+}
+
+h3 {
+  font-size: 1.75rem; /* 28px */
+  color: #707070;
+}
+
+p {
+  font-family: 'Arvo', serif;
+}
+
+#skills ul {
+  list-style-type: none;
 }
