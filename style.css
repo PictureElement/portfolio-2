@@ -42,7 +42,6 @@ a:hover {
 }
 
 /*---------------------------------- COVER-1 ---------------------------------*/
-
 #cover-1 {
   background-image: url(images/bg.jpeg);
   background-size: cover;
@@ -55,7 +54,6 @@ a:hover {
 }
 
 /*---------------------------------- HEADER ----------------------------------*/
-
 header {
   background: #35424a;
   border-bottom: 0.25rem solid #de1b1b;
@@ -112,7 +110,15 @@ header #current {
   margin: auto;
 }
 
+/*---------------------------------- FOOTER ----------------------------------*/
+footer {
+  background-color: #de1b1b;
+  text-align: center;
+}
 
+footer p, footer a {
+  color: white;
+}
 
 
 
