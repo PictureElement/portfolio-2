@@ -26,6 +26,12 @@ p {
   font-family: 'Arvo', serif;
 }
 
+/* responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: #a0a0a0;
 }
@@ -79,7 +85,6 @@ header #current {
 }
 
 header img {
-  max-width: 100%;
   /* Vertically align logo within its container(i.e. #branding) */
   vertical-align: middle;
 }
@@ -101,6 +106,15 @@ header img {
   padding: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
+}
+
+/*--------------------------- BADGE & CERT IMAGES ----------------------------*/
+.image-link {
+  opacity: 0.8;
+}
+
+.image-link:hover {
+  opacity: 1.0;
 }
 
 
