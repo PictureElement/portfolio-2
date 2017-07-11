@@ -89,6 +89,21 @@ header img {
   align-items: center;
 }
 
+/*------------------------------- SKILLS --------------------------------*/
+#skills li {
+  display: inline;
+  float: left;
+  background-color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  color: #a0a0a0;
+  border: 1px solid black;
+  border-radius: .3rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+
 
 
 
