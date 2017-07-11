@@ -84,10 +84,6 @@ header #current {
   color: #de1b1b;
 }
 
-header img {
-  ;
-}
-
 /*------------------------------- SKILLS --------------------------------*/
 #skills li {
   display: inline;
@@ -111,7 +107,10 @@ header img {
   opacity: 1.0;
 }
 
-
+.center {
+  display: block;
+  margin: auto;
+}
 
 
 
