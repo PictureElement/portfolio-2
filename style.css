@@ -5,6 +5,10 @@ body {
   color: #a0a0a0;
 }
 
+ul {
+  padding-left: 0;
+}
+
 h1 {
   font-size: 2.25rem; /* 36px */
   color: #de1b1b;
@@ -68,18 +72,18 @@ header a {
 }
 
 header li {
-  border: 1px solid red;
+  border: 1px solid green;
   display: inline;
   padding: 1rem;
-}
-
-header nav {
-  float: right;
 }
 
 /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
 header #current {
   color: #de1b1b;
+}
+
+header nav {
+  text-align: center;
 }
 
 /*------------------------------- SKILLS --------------------------------*/
@@ -119,11 +123,6 @@ footer {
 footer p, footer a {
   color: white;
 }
-
-
-
-
-
 
 
 
