@@ -1,0 +1,364 @@
+.Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube, .Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube, .Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube, .Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube, .Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube, .Facebook, .Github, .Google+, .Instagram, .Linkedin, .Reddit, .Snapchat, .Twitter, .WhatsApp, .YouTube{
+	background: url(sprites.png) no-repeat;
+}
+
+.Facebook{
+	background-position: 0 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.Facebook{
+	background-position: 0 -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px -128px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Facebook{
+	background-position: 0 -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px -256px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Facebook{
+	background-position: 0 -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px -384px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Facebook{
+	background-position: 0 -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px -512px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Facebook{
+	background-position: 0 -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Github{
+	background-position: -128px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Google+{
+	background-position: -256px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Instagram{
+	background-position: -384px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Linkedin{
+	background-position: -512px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Reddit{
+	background-position: -640px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Snapchat{
+	background-position: -768px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.Twitter{
+	background-position: -896px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.WhatsApp{
+	background-position: -1024px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
+.YouTube{
+	background-position: -1152px -640px ;
+	width: 128px;
+	height: 128px;
+}
+
