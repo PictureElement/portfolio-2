@@ -1,0 +1,15 @@
+#cover-1 {
+  background-image: url(images/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 3px black;
+}
+
+body {
+  /* font-size/line-height font-family */
+  font: 1rem/1.5 'Lato', sans-serif;
+  background-color: #eeeeee;
+  color: #a0a0a0;
+}
