@@ -85,13 +85,7 @@ header #current {
 }
 
 header img {
-  /* Vertically align logo within its container(i.e. #branding) */
-  vertical-align: middle;
-}
-
-/* Center the alignments for all the items of the flexible .row */
-.center {
-  align-items: center;
+  ;
 }
 
 /*------------------------------- SKILLS --------------------------------*/

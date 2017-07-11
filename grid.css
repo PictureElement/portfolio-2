@@ -24,6 +24,7 @@ html, body {
   display: flex;
   /* default flex direction (mobile first design) */
   flex-direction: column;
+  align-items: center;
 }
 
 /* 1/12 of the page width */
