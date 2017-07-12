@@ -133,7 +133,11 @@ footer p, footer a {
   color: white;
 }
 
-/*---------------------------------- ASIDE -----------------------------------*/
+/*--------------------------------- SIDEBAR ----------------------------------*/
+aside#sidebar {
+  text-align: center;
+}
+
 aside#sidebar h3 {
   color: white;
   border-bottom: 1px solid white;
@@ -171,3 +175,4 @@ aside#sidebar h3 {
   flex-direction: column;
   align-items: center;
 }
+
