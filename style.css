@@ -136,4 +136,5 @@ aside#sidebar {
 
 aside#sidebar h3 {
   color: white;
+  border-bottom: 1px solid white;
 }
