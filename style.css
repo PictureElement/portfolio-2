@@ -86,7 +86,12 @@ header nav {
   text-align: center;
 }
 
-/*------------------------------- SKILLS --------------------------------*/
+/*-------------------------------- EDUCATION ---------------------------------*/
+#education ul {
+  padding-left: 1.25rem;
+}
+
+/*--------------------------------- SKILLS -----------------------------------*/
 #skills li {
   display: inline;
   float: left;
@@ -98,6 +103,10 @@ header nav {
   padding: 0.5rem;
   margin-right: 0.5rem;
   margin-top: 0.5rem;
+}
+
+#skills ul {
+  list-style-type: none;
 }
 
 /*--------------------------- BADGE & CERT IMAGES ----------------------------*/
@@ -124,20 +133,3 @@ footer p, footer a {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#skills ul {
-  list-style-type: none;
-}
