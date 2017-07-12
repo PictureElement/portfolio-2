@@ -82,8 +82,8 @@ html, body {
   /*
   border-radius: .3rem;
   border: 2px solid red;*/
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 0.25rem;
+  margin: 0.25rem;
 }
 
 @media screen and (min-width: 480px) {
