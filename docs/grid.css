@@ -1,0 +1,94 @@
+html {
+  /*
+   * The width/height property includes content, padding, and border. This makes
+   * things more predictable. No matter how you tweak the padding and border
+   * sizes, the size of the box will always stay the same.
+   */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.row {
+  display: flex;
+  /* default flex direction (mobile first design) */
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 1/12 of the page width */
+.col-1 {
+  flex-basis: 8.33%;
+}
+
+/* 2/12 of the page width */
+.col-2 {
+  flex-basis: 16.66%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.33%;
+}
+
+.col-5 {
+  flex-basis: 41.66%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.33%;
+}
+
+.col-8 {
+  flex-basis: 66.66%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.33%;
+}
+
+.col-11 {
+  flex-basis: 91.66%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10,
+.col-11, .col-12 {
+  /*
+  border-radius: .3rem;
+  border: 2px solid cyan;*/
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+
+@media screen and (min-width: 480px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+}

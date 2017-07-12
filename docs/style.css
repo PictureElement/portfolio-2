@@ -1,0 +1,191 @@
+body {
+  /* font-size/line-height font-family */
+  font: 1rem/1.5 'Lato', sans-serif;
+  background-color: #eeeeee;
+  color: #a0a0a0;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2.25rem; /* 36px */
+  color: #de1b1b;
+}
+
+h2 {
+  color: black;
+  border-bottom: 1px solid black;
+  font-family: 'Arvo', serif;
+  font-size: 1.875rem; /* 30px */
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+  color: #707070;
+}
+
+p {
+  font-family: 'Arvo', serif;
+}
+
+/* responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #a0a0a0;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/*---------------------------------- COVER-1 ---------------------------------*/
+#cover-1 {
+  background-image: url(images/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 2px black;
+  border-bottom: 0.25rem solid #de1b1b;
+  color: white;
+}
+
+/*---------------------------------- HEADER ----------------------------------*/
+header {
+  background: #35424a;
+  border-bottom: 0.25rem solid #de1b1b;
+}
+
+header a {
+  color: white;
+  transition: .3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem; /* 24px */
+}
+
+header li {
+  display: inline;
+  padding: 1rem;
+}
+
+/* Highlight current navigation link (i.e. Home, About, Resume, ...) */
+header #current {
+  color: #de1b1b;
+}
+
+header nav {
+  text-align: center;
+}
+
+/*--------------------------------- SKILLS -----------------------------------*/
+#skills li {
+  display: inline;
+  float: left;
+  background-color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  color: #a0a0a0;
+  border: 1px solid black;
+  border-radius: .3rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+/*----------------------------- CERTIFICATIONS -------------------------------*/
+section#certifications {
+  text-align: center;
+}
+
+/*--------------------------------- BADGES -----------------------------------*/
+section#badges {
+  text-align: center;
+}
+
+/*--------------------------- BADGE & CERT IMAGES ----------------------------*/
+.image-link {
+  opacity: 0.8;
+}
+
+.image-link:hover {
+  opacity: 1.0;
+}
+
+/*---------------------------------- FOOTER ----------------------------------*/
+footer {
+  background-color: #de1b1b;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p, footer a {
+  color: white;
+}
+
+/*--------------------------------- SIDEBAR ----------------------------------*/
+aside#sidebar {
+  text-align: center;
+  padding: 2rem;
+}
+
+aside#sidebar h3 {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+aside#sidebar a {
+  /* Set to inline-block in order for the text-align to have an effect on it */
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+/*------------------------------ HELPER CLASSES ------------------------------*/
+.light-bg {
+  background: #e6e6e6;
+}
+
+.dark-bg {
+  background: #35424a;
+}
+
+.red-bg {
+  background: #de1b1b;
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+/*---------------------------------- COVER-2 ---------------------------------*/
+#cover-2 {
+  background-image: url(images/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 2px black;
+  border-bottom: 0.25rem solid #de1b1b;
+}
+
+#profile-image-wrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
