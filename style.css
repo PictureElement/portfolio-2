@@ -144,3 +144,22 @@ aside#sidebar h3 {
 .dark-bg {
   background: #35424a;
 }
+
+/*---------------------------------- COVER-2 ---------------------------------*/
+#cover-2 {
+  background-image: url(images/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow: 0 2px black;
+  border-bottom: 0.25rem solid #de1b1b;
+}
+
+#cover-2 img {
+  border: 1px solid green;
+}
+
+#cover-2 h1 {
+  border: 1px solid blue;
+}
