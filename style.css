@@ -167,8 +167,6 @@ aside#sidebar h3 {
 
 #cover-2 img {
   border: 1px solid green;
-  object-fit: contain;
-  object-position: 0 0; /* positioned top left of the content box */
 }
 
 #cover-2 h1 {
