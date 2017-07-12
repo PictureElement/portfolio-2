@@ -105,6 +105,16 @@ header nav {
   list-style-type: none;
 }
 
+/*----------------------------- CERTIFICATIONS -------------------------------*/
+section#certifications {
+  text-align: center;
+}
+
+/*--------------------------------- BADGES -----------------------------------*/
+section#badges {
+  text-align: center;
+}
+
 /*--------------------------- BADGE & CERT IMAGES ----------------------------*/
 .image-link {
   opacity: 0.8;
