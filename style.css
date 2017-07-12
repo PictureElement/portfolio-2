@@ -124,11 +124,6 @@ section#badges {
   opacity: 1.0;
 }
 
-.center {
-  display: block;
-  margin: auto;
-}
-
 /*---------------------------------- FOOTER ----------------------------------*/
 footer {
   background-color: #de1b1b;
@@ -145,14 +140,18 @@ aside#sidebar h3 {
   border-bottom: 1px solid white;
 }
 
-/*--------------------------*/
-
+/*------------------------------ HELPER CLASSES ------------------------------*/
 .light-bg {
   background: #e6e6e6;
 }
 
 .dark-bg {
   background: #35424a;
+}
+
+.center {
+  display: block;
+  margin: auto;
 }
 
 /*---------------------------------- COVER-2 ---------------------------------*/
@@ -168,6 +167,8 @@ aside#sidebar h3 {
 
 #cover-2 img {
   border: 1px solid green;
+  object-fit: contain;
+  object-position: 0 0; /* positioned top left of the content box */
 }
 
 #cover-2 h1 {
