@@ -130,11 +130,17 @@ footer p, footer a {
 }
 
 /*---------------------------------- ASIDE -----------------------------------*/
-aside#sidebar {
-  background: #35424a;
-}
-
 aside#sidebar h3 {
   color: white;
   border-bottom: 1px solid white;
+}
+
+/*--------------------------*/
+
+.light-bg {
+  background: #e6e6e6;
+}
+
+.dark-bg {
+  background: #35424a;
 }
