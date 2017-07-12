@@ -127,6 +127,7 @@ section#badges {
 footer {
   background-color: #de1b1b;
   text-align: center;
+  padding: 1rem 0;
 }
 
 footer p, footer a {
@@ -158,6 +159,10 @@ aside#sidebar a {
 
 .dark-bg {
   background: #35424a;
+}
+
+.red-bg {
+  background: #de1b1b;
 }
 
 .center {
