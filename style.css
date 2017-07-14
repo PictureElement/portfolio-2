@@ -69,7 +69,7 @@ header a {
   transition: .3s;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.2rem; /* ~19px */
 }
 
 header li {
@@ -188,4 +188,3 @@ aside#sidebar a {
   flex-direction: column;
   align-items: center;
 }
-
