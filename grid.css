@@ -29,52 +29,52 @@ html, body {
 
 /* 1/12 of the page width */
 .col-1 {
-  flex-basis: 8.33%;
+  width: 8.33%;
 }
 
 /* 2/12 of the page width */
 .col-2 {
-  flex-basis: 16.66%;
+  width: 16.66%;
 }
 
 .col-3 {
-  flex-basis: 25%;
+  width: 25%;
 }
 
 .col-4 {
-  flex-basis: 33.33%;
+  width: 33.33%;
 }
 
 .col-5 {
-  flex-basis: 41.66%;
+  width: 41.66%;
 }
 
 .col-6 {
-  flex-basis: 50%;
+  width: 50%;
 }
 
 .col-7 {
-  flex-basis: 58.33%;
+  width: 58.33%;
 }
 
 .col-8 {
-  flex-basis: 66.66%;
+  width: 66.66%;
 }
 
 .col-9 {
-  flex-basis: 75%;
+  width: 75%;
 }
 
 .col-10 {
-  flex-basis: 83.33%;
+  width: 83.33%;
 }
 
 .col-11 {
-  flex-basis: 91.66%;
+  width: 91.66%;
 }
 
 .col-12 {
-  flex-basis: 100%;
+  width: 100%;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10,

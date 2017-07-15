@@ -20,6 +20,7 @@ h2 {
   border-bottom: 1px solid black;
   font-family: 'Arvo', serif;
   font-size: 1.875rem; /* 30px */
+  text-align: center;
 }
 
 h3 {
@@ -69,7 +70,7 @@ header a {
   transition: .3s;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.2rem; /* ~19px */
+  font-size: 1rem; /* 16px */
 }
 
 header li {
