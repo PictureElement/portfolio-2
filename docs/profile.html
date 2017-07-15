@@ -11,14 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="grid-medium.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="style-medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="style-large.css">
   </head>
   <body>
 
     <header>
       <div class="row">
         <div class="col-2">
-          <img class="center" src="images/logomakr_6AGIbQ.png" alt="website logo" width="100">
+          <img class="center logo" src="images/logomakr_6AGIbQ.png" alt="website logo">
         </div>
         <div class="col-10">
           <nav>
@@ -34,13 +37,13 @@
 
     <section id="cover-2">
       <div class="row">
-        <div class="col-2">
+        <div class="col-2" id="flex-item-empty">
         </div>
-        <div class="col-8">
+        <div class="col-8" id="flex-item-txt">
           <h1>Profile</h1>
         </div>
-        <div class="col-2" id="profile-image-wrapper">
-          <img src="images/id.png" alt="profile image" width="150">
+        <div class="col-2" id="flex-item-img">
+          <img id="profile-image" src="images/id.png" alt="profile image">
         </div>
       </div>
     </section>
@@ -51,8 +54,8 @@
            <h2>About me</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-8 light-bg">
+      <div class="row" id="flex-container-about">
+        <div class="col-7 light-bg">
           <article id="about">
             <p>
               I'm Marios Sofokleous. I'm currently based in Pafos, Cyprus, an
@@ -89,7 +92,7 @@
             </p>
           </article>
         </div>
-        <div class="col-4 dark-bg">
+        <div class="col-5 dark-bg">
           <aside id="sidebar">
             <h3>Interests</h3>
             <ul id="interests">

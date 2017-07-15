@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+}
+
+/*------------------------------- NAVIGATION ---------------------------------*/
+header nav {
+  text-align: right;
+}
+
+/*----------------------------- CERTIFICATIONS -------------------------------*/
+section#certifications {
+  text-align: left;
+}
+
+/*--------------------------------- BADGES -----------------------------------*/
+section#badges {
+  text-align: left;
+}
+
+/*--------------------------------- COVER-2 ----------------------------------*/
+#flex-item-empty {
+ order: 3;
+}
+
+#flex-item-txt {
+  order: 2;
+}
+
+#flex-item-img {
+  order: 1;
+}
+
+/*--------------------------------- SIDEBAR ----------------------------------*/
+#flex-container-about {
+  align-items: stretch;
+}
+
+/*---------------------------- RESPONSIVE IMAGES -----------------------------*/
+#profile-image {
+  width: 120px;
+}
+
+.logo {
+  width: 90px;
+}
+
+/* certification and badge icons */
+.image-link {
+  width: 90px;
+}
