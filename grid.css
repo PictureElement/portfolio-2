@@ -5,7 +5,6 @@ html {
    * sizes, the size of the box will always stay the same.
    */
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 html, body {

@@ -1,3 +1,7 @@
+html {
+  font-size: 14px;
+}
+
 body {
   /* font-size/line-height font-family */
   font: 1rem/1.5 'Lato', sans-serif;
@@ -31,12 +35,6 @@ p {
   font-family: 'Arvo', serif;
 }
 
-/* responsive images */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 a {
   color: #a0a0a0;
 }
@@ -44,6 +42,26 @@ a {
 a:hover {
   color: black;
   text-decoration: none;
+}
+
+/*---------------------------- RESPONSIVE IMAGES -----------------------------*/
+#profile-image {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 70px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* certification and badge icons */
+.image-link {
+  width: 70px;
+  max-width: 100%;
+  height: auto;
 }
 
 /*---------------------------------- COVER-1 ---------------------------------*/
@@ -74,7 +92,7 @@ header a {
 
 header li {
   display: inline;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
@@ -137,7 +155,7 @@ footer p, footer a {
 /*--------------------------------- SIDEBAR ----------------------------------*/
 aside#sidebar {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 aside#sidebar h3 {
@@ -181,10 +199,11 @@ aside#sidebar a {
   border-bottom: 0.25rem solid #de1b1b;
 }
 
-#profile-image-wrapper {
+#flex-item-img {
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: flex-end;
 }
