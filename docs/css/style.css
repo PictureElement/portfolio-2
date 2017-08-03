@@ -49,7 +49,15 @@ a:hover {
 }
 
 /*---------------------------- RESPONSIVE IMAGES -----------------------------*/
+/* profile image container */
+#flex-item-img {
+  padding: 0;
+  margin: 0;
+}
+
 #profile-image {
+  display: block;
+  margin: auto;
   width: 100px;
   max-width: 100%;
   height: auto;
@@ -206,13 +214,4 @@ aside#sidebar a {
   /* Shadow with a blur effect */
   text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
-}
-
-#flex-item-img {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: flex-end;
 }
