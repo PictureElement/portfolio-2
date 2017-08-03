@@ -3,6 +3,10 @@ html {
 }
 
 /*--------------------------------- HEADER -----------------------------------*/
+header .row {
+  padding: 0 .5rem;
+}
+
 header nav {
   text-align: right;
 }
