@@ -2,7 +2,7 @@ html {
   font-size: 16px;
 }
 
-/*------------------------------- NAVIGATION ---------------------------------*/
+/*--------------------------------- HEADER -----------------------------------*/
 header nav {
   text-align: right;
 }
@@ -38,11 +38,13 @@ section#badges {
 /*---------------------------- RESPONSIVE IMAGES -----------------------------*/
 #profile-image {
   width: 120px;
+  /* Align to the left */
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
   width: 90px;
-  display: block;
   /* Align to the left */
   margin: 0;
 }
