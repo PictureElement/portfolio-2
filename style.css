@@ -63,7 +63,7 @@ a:hover {
   height: auto;
 }
 
-/* certification and badge icons */
+/* Certification and badge icons */
 .image-link {
   width: 70px;
   max-width: 100%;
@@ -150,9 +150,9 @@ section#badges {
 
 /*---------------------------------- FOOTER ----------------------------------*/
 footer {
-  background-color: #de1b1b;
+  background-color: #35424a;
   text-align: center;
-  padding: 1rem 0;
+  padding: .5rem;
 }
 
 footer p, footer a {
@@ -162,7 +162,6 @@ footer p, footer a {
 /*--------------------------------- SIDEBAR ----------------------------------*/
 aside#sidebar {
   text-align: center;
-  padding: 1rem;
 }
 
 aside#sidebar h3 {

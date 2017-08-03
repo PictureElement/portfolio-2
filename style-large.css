@@ -1,4 +1,4 @@
-header div:first-child {
+header .row {
   width: 80%;
   margin: 0 auto;
 }
