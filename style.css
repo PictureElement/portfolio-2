@@ -84,6 +84,7 @@ a:hover {
 
 /*---------------------------------- HEADER ----------------------------------*/
 header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   padding: .5rem;
   background: #35424a;
   border-bottom: 0.25rem solid #de1b1b;
