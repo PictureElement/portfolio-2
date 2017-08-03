@@ -44,6 +44,10 @@ a:hover {
   text-decoration: none;
 }
 
+.main-content {
+  padding: .5rem;
+}
+
 /*---------------------------- RESPONSIVE IMAGES -----------------------------*/
 #profile-image {
   width: 100px;
@@ -52,12 +56,14 @@ a:hover {
 }
 
 .logo {
+  display: block;
+  margin: auto;
   width: 70px;
   max-width: 100%;
   height: auto;
 }
 
-/* certification and badge icons */
+/* Certification and badge icons */
 .image-link {
   width: 70px;
   max-width: 100%;
@@ -71,13 +77,16 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow: 0 2px black;
+  /* Shadow with a blur effect */
+  text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
   color: white;
 }
 
 /*---------------------------------- HEADER ----------------------------------*/
 header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  padding: .5rem;
   background: #35424a;
   border-bottom: 0.25rem solid #de1b1b;
 }
@@ -92,7 +101,7 @@ header a {
 
 header li {
   display: inline;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
@@ -143,9 +152,9 @@ section#badges {
 
 /*---------------------------------- FOOTER ----------------------------------*/
 footer {
-  background-color: #de1b1b;
+  background-color: #35424a;
   text-align: center;
-  padding: 1rem 0;
+  padding: .5rem;
 }
 
 footer p, footer a {
@@ -155,7 +164,6 @@ footer p, footer a {
 /*--------------------------------- SIDEBAR ----------------------------------*/
 aside#sidebar {
   text-align: center;
-  padding: 1rem;
 }
 
 aside#sidebar h3 {
@@ -195,7 +203,8 @@ aside#sidebar a {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow: 0 2px black;
+  /* Shadow with a blur effect */
+  text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
 }
 
