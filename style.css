@@ -77,7 +77,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow: 0 2px black;
+  /* Shadow with a blur effect */
+  text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
   color: white;
 }
@@ -202,7 +203,8 @@ aside#sidebar a {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow: 0 2px black;
+  /* Shadow with a blur effect */
+  text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
 }
 
