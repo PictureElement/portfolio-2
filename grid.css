@@ -1,9 +1,8 @@
-html {
-  /*
-   * The width/height property includes content, padding, and border. This makes
-   * things more predictable. No matter how you tweak the padding and border
-   * sizes, the size of the box will always stay the same.
-   */
+/*
+ * Make sure that the padding and border are included in the total width and
+ * height of the elements.
+ */
+* {
   box-sizing: border-box;
 }
 
@@ -13,24 +12,15 @@ html, body {
   overflow-x: hidden;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .row {
   display: flex;
-  /* default flex direction (mobile first design) */
-  flex-direction: column;
+  flex-direction: column; /* Mobile-first design */
   align-items: center;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10,
-.col-11, .col-12 {
+[class*="col-"] {
   border-radius: .3rem;
-  /*border: 2px solid cyan;*/
-  padding: 0.25rem;
-  margin: 0.25rem;
+  padding: 0.1rem;
+  margin: 0.1rem;
   width: 100%;
 }
