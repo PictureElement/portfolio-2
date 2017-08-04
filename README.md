@@ -1,3 +1,7 @@
+## Status
+
+COMPLETED
+
 ## About
 
 This website is a portfolio site whrere I showcase stuff I've
