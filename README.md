@@ -4,7 +4,7 @@ COMPLETED
 
 ## About
 
-This website is a portfolio site whrere I showcase stuff I've
+This website is a portfolio site where I showcase stuff I've
 done/built/designed. This site also serves as a web resume where I present my
 background and skills.
 
