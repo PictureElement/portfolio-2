@@ -49,23 +49,28 @@ a:hover {
     text-decoration: none;
 }
 
-.dates, .description {
+.dates,
+.description {
     margin-bottom: 0;
 }
 
 .main-content {
-    padding: 0 1rem;
-    padding-bottom: 1rem;
+    padding: 20px;
 }
 
-.main-content > div {
-    margin-top: 20px;
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
+    background-image: -moz-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
+    background-image: -ms-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
+    background-image: -o-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
 }
 
 /*---------------------------- RESPONSIVE IMAGES ----------------------------*/
 
 /* profile image container */
-
 #flex-item-img {
     padding: 0;
     margin: 0;
@@ -88,8 +93,8 @@ a:hover {
 }
 
 
-/* Certification icon */
 
+/* Certification icon */
 .image-link {
     width: 70px;
     max-width: 100%;
@@ -98,8 +103,8 @@ a:hover {
 }
 
 
-/*---------------------------------- COVER-1 --------------------------------*/
 
+/*---------------------------------- COVER-1 --------------------------------*/
 #cover-1 {
     background-image: url(../images/bg.jpeg);
     background-size: cover;
@@ -107,6 +112,7 @@ a:hover {
     background-position: center;
     text-align: center;
     /* Shadow with a blur effect */
+
     text-shadow: -1px 0 2px black;
     border-bottom: 0.25rem solid #de1b1b;
 }
@@ -116,8 +122,8 @@ a:hover {
 }
 
 
-/*---------------------------------- HEADER ---------------------------------*/
 
+/*---------------------------------- HEADER ---------------------------------*/
 header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     padding: 1rem;
@@ -140,8 +146,8 @@ header li {
 }
 
 
-/* Highlight current navigation link (i.e. Home, About, Resume, ...) */
 
+/* Highlight current navigation link (i.e. Home, About, Resume, ...) */
 header #current {
     color: #de1b1b;
 }
@@ -151,8 +157,8 @@ header nav {
 }
 
 
-/*--------------------------------- SKILLS ----------------------------------*/
 
+/*--------------------------------- SKILLS ----------------------------------*/
 #skills li {
     display: inline;
     float: left;
@@ -171,15 +177,15 @@ header nav {
 }
 
 
-/*----------------------------- ONLINE COURSES ------------------------------*/
 
+/*----------------------------- ONLINE COURSES ------------------------------*/
 section#online-courses {
     text-align: center;
 }
 
 
-/*-------------------------- ONLINE COURSES IMAGES --------------------------*/
 
+/*-------------------------- ONLINE COURSES IMAGES --------------------------*/
 .image-link {
     opacity: 0.8;
 }
@@ -189,8 +195,8 @@ section#online-courses {
 }
 
 
-/*---------------------------------- FOOTER ---------------------------------*/
 
+/*---------------------------------- FOOTER ---------------------------------*/
 footer {
     background-color: #35424a;
     text-align: center;
@@ -203,8 +209,8 @@ footer a {
 }
 
 
-/*--------------------------------- SIDEBAR ---------------------------------*/
 
+/*--------------------------------- SIDEBAR ---------------------------------*/
 aside#sidebar {
     text-align: center;
 }
@@ -216,14 +222,15 @@ aside#sidebar h3 {
 
 aside#sidebar a {
     /* Set to inline-block in order for the text-align to have an effect on it */
+
     display: inline-block;
     text-decoration: none;
     margin: 1rem;
 }
 
 
-/*------------------------------ HELPER CLASSES -----------------------------*/
 
+/*------------------------------ HELPER CLASSES -----------------------------*/
 .light-bg {
     background: #e6e6e6;
 }
@@ -242,8 +249,8 @@ aside#sidebar a {
 }
 
 
-/*---------------------------------- COVER-2 --------------------------------*/
 
+/*---------------------------------- COVER-2 --------------------------------*/
 #cover-2 {
     background-image: url(../images/bg.jpeg);
     background-size: cover;
@@ -251,6 +258,7 @@ aside#sidebar a {
     background-position: center;
     text-align: center;
     /* Shadow with a blur effect */
+
     text-shadow: -1px 0 2px black;
     border-bottom: 0.25rem solid #de1b1b;
 }
