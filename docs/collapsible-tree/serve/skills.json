@@ -1,0 +1,455 @@
+{
+  "name": "Skills",
+  "children": [{
+      "name": "Web development",
+      "children": [{
+          "name": "Front-end",
+          "children": [{
+              "name": "Multimedia tools",
+              "children": [{
+                  "name": "Adobe Photoshop",
+                  "size": 1
+                },
+                {
+                  "name": "Adobe Illustrator",
+                  "size": 2
+                },
+                {
+                  "name": "Adobe Lightroom",
+                  "size": 3
+                },
+                {
+                  "name": "Adobe Premiere Pro",
+                  "size": 4
+                },
+                {
+                  "name": "GraphicsMagick",
+                  "size": 5
+                }
+              ]
+            },
+            {
+              "name": "Responsive web design",
+              "children": [{
+                  "name": "Common responsive patterns",
+                  "size": 6
+                },
+                {
+                  "name": "Media queries",
+                  "size": 7
+                },
+                {
+                  "name": "Flexbox",
+                  "size": 74
+                },
+                {
+                  "name": "Responsive images",
+                  "size": 75
+                }
+              ]
+            },
+            {
+              "name": "Web authoring & debugging",
+              "children": [{
+                "name": "Chrome DevTools",
+                "size": 8
+              }]
+            },
+            {
+              "name": "Web perf. & opt.",
+              "children": [{
+                  "name": "Lighthouse",
+                  "size": 9
+                },
+                {
+                  "name": "PageSpeed Insights",
+                  "size": 10
+                }
+              ]
+            },
+            {
+              "name": "CSS",
+              "children": [{
+                  "name": "Frameworks",
+                  "children": [{
+                      "name": "Bootstrap",
+                      "size": 11
+                    },
+                    {
+                      "name": "Foundation*",
+                      "size": 12
+                    }
+                  ]
+                },
+                {
+                  "name": "Validation",
+                  "children": [{
+                    "name": "W3C CSS val. svc.",
+                    "size": 13
+                  }]
+                },
+                {
+                  "name": "Preprocessors",
+                  "children": [{
+                    "name": "SASS*",
+                    "size": 14
+                  }]
+                }
+              ]
+            },
+            {
+              "name": "HTML",
+              "children": [{
+                  "name": "Validation",
+                  "children": [{
+                    "name": "W3C markup val. svc.",
+                    "size": 15
+                  }]
+                },
+                {
+                  "name": "Semantic HTML",
+                  "size": 16
+                }
+              ]
+            },
+            {
+              "name": "JavaScript",
+              "children": [{
+                  "name": "Task Runners",
+                  "children": [{
+                      "name": "GruntJS",
+                      "size": 17
+                    },
+                    {
+                      "name": "GulpJS*",
+                      "size": 18
+                    }
+                  ]
+                },
+                {
+                  "name": "Data interchange formats",
+                  "children": [{
+                    "name": "JSON",
+                    "size": 73
+                  }]
+                },
+                {
+                  "name": "Libraries",
+                  "children": [{
+                      "name": "jQuerry",
+                      "size": 19
+                    },
+                    {
+                      "name": "D3.js",
+                      "size": 70
+                    }
+                  ]
+                },
+                {
+                  "name": "Frameworks",
+                  "children": [{
+                      "name": "AngularJS*",
+                      "size": 20
+                    },
+                    {
+                      "name": "ReactJS*",
+                      "size": 21
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CMS",
+          "children": [{
+            "name": "WordPress",
+            "size": 22
+          }]
+        },
+        {
+          "name": "Hosting",
+          "children": [{
+              "name": "cPanel",
+              "size": 71
+            },
+            {
+              "name": "Bluehost",
+              "size": 72
+            }
+          ]
+        },
+        {
+          "name": "Essential",
+          "children": [{
+              "name": "Git",
+              "size": 23
+            },
+            {
+              "name": "GitHub",
+              "size": 24
+            },
+            {
+              "name": "Linux",
+              "size": 25
+            },
+            {
+              "name": "Sublime Text 3",
+              "size": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programming",
+      "children": [{
+          "name": "C/C++",
+          "children": [{
+              "name": "IDEs",
+              "children": [{
+                  "name": "Eclipse",
+                  "size": 27
+                },
+                {
+                  "name": "Code::Blocks",
+                  "size": 28
+                },
+                {
+                  "name": "Geany",
+                  "size": 29
+                }
+              ]
+            },
+            {
+              "name": "Debugging",
+              "children": [{
+                "name": "Valgrind",
+                "size": 30
+              }]
+            },
+            {
+              "name": "Libraries",
+              "children": [{
+                  "name": "PAPI",
+                  "size": 31
+                },
+                {
+                  "name": "OpenMP",
+                  "size": 32
+                },
+                {
+                  "name": "MPICH",
+                  "size": 33
+                },
+                {
+                  "name": "Blitz++",
+                  "size": 34
+                },
+                {
+                  "name": "Eigen",
+                  "size": 35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JavaScript",
+          "size": 76
+        },
+        {
+          "name": "R",
+          "size": 36
+        },
+        {
+          "name": "Bash",
+          "size": 37
+        },
+        {
+          "name": "MIPS assembly",
+          "size": 38
+        },
+        {
+          "name": "Algorithms",
+          "size": 77
+        }
+      ]
+    },
+    {
+      "name": "Computer security",
+      "children": [{
+          "name": "Anonymity",
+          "children": [{
+              "name": "VPN",
+              "size": 39
+            },
+            {
+              "name": "Tor",
+              "size": 40
+            },
+            {
+              "name": "ProxyChains",
+              "size": 41
+            }
+          ]
+        },
+        {
+          "name": "Footprinting",
+          "children": [{
+            "name": "Nmap",
+            "children": [{
+              "name": "NSE",
+              "size": 42
+            }]
+          }]
+        },
+        {
+          "name": "Wireless network attacks",
+          "children": [{
+              "name": "Aircrack-ng suite",
+              "size": 43
+            },
+            {
+              "name": "Reaver",
+              "size": 44
+            }
+          ]
+        },
+        {
+          "name": "MitM attacks",
+          "children": [{
+              "name": "Burp suite",
+              "size": 45
+            },
+            {
+              "name": "Squid caching proxy",
+              "size": 46
+            },
+            {
+              "name": "Evil twin & Rogue AP",
+              "size": 47
+            }
+          ]
+        },
+        {
+          "name": "Vulnerability exploitation",
+          "children": [{
+              "name": "NSE",
+              "size": 48
+            },
+            {
+              "name": "Metasploit",
+              "size": 49
+            }
+          ]
+        },
+        {
+          "name": "Penetration testing",
+          "children": [{
+              "name": "Kali Linux",
+              "size": 50
+            },
+            {
+              "name": "Metasploitable",
+              "size": 51
+            }
+          ]
+        },
+        {
+          "name": "DNS spoofing",
+          "children": [{
+              "name": "Social Engineer Toolkit",
+              "size": 52
+            },
+            {
+              "name": "DNSChef DNS proxy",
+              "size": 53
+            }
+          ]
+        },
+        {
+          "name": "Offline/Online psw cracking",
+          "children": [{
+              "name": "John the Ripper",
+              "size": 54
+            },
+            {
+              "name": "THC-Hydra",
+              "size": 55
+            }
+          ]
+        },
+        {
+          "name": "Signal jamming & DoS attacks",
+          "children": [{
+              "name": "Aircrack-ng suite",
+              "size": 56
+            },
+            {
+              "name": "SYN flooding",
+              "size": 57
+            },
+            {
+              "name": "Slow HTTP attack (Slowloris)",
+              "size": 58
+            }
+          ]
+        },
+        {
+          "name": "Keyloggers",
+          "size": 59
+        },
+        {
+          "name": "Reverse shells",
+          "children": [{
+              "name": "Metasploit",
+              "size": 60
+            },
+            {
+              "name": "Netcat",
+              "size": 61
+            },
+            {
+              "name": "NSE",
+              "size": 62
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "children": [{
+          "name": "Gnuplot",
+          "size": 63
+        },
+        {
+          "name": "GNU Octave",
+          "size": 64
+        },
+        {
+          "name": "Magic VLSI",
+          "size": 65
+        },
+        {
+          "name": "Word processor",
+          "size": 66
+        },
+        {
+          "name": "Spread sheet",
+          "size": 67
+        },
+        {
+          "name": "Presentation software",
+          "size": 68
+        },
+        {
+          "name": "Google Drive",
+          "size": 69
+        }
+      ]
+    }
+  ]
+}
