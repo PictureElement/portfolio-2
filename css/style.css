@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  /* font-size/line-height font-family */
-  font: 1rem/1.5 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
   background-color: white;
   color: #a0a0a0;
 }
@@ -45,10 +45,11 @@ a:hover {
 }
 
 .main-content {
-  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/*---------------------------- RESPONSIVE IMAGES -----------------------------*/
+/*---------------------------- RESPONSIVE IMAGES ----------------------------*/
 /* profile image container */
 #flex-item-img {
   padding: 0;
@@ -78,7 +79,7 @@ a:hover {
   height: auto;
 }
 
-/*---------------------------------- COVER-1 ---------------------------------*/
+/*---------------------------------- COVER-1 --------------------------------*/
 #cover-1 {
   background-image: url(../images/bg.jpeg);
   background-size: cover;
@@ -88,13 +89,16 @@ a:hover {
   /* Shadow with a blur effect */
   text-shadow: -1px 0 2px black;
   border-bottom: 0.25rem solid #de1b1b;
+}
+
+#tagline {
   color: white;
 }
 
-/*---------------------------------- HEADER ----------------------------------*/
+/*---------------------------------- HEADER ---------------------------------*/
 header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  padding: .5rem;
+  padding: 1rem;
   background: #35424a;
   border-bottom: 0.25rem solid #de1b1b;
 }
@@ -121,7 +125,7 @@ header nav {
   text-align: center;
 }
 
-/*--------------------------------- SKILLS -----------------------------------*/
+/*--------------------------------- SKILLS ----------------------------------*/
 #skills li {
   display: inline;
   float: left;
@@ -153,18 +157,18 @@ section#online-courses {
   opacity: 1.0;
 }
 
-/*---------------------------------- FOOTER ----------------------------------*/
+/*---------------------------------- FOOTER ---------------------------------*/
 footer {
   background-color: #35424a;
   text-align: center;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 footer p, footer a {
   color: white;
 }
 
-/*--------------------------------- SIDEBAR ----------------------------------*/
+/*--------------------------------- SIDEBAR ---------------------------------*/
 aside#sidebar {
   text-align: center;
 }
@@ -181,7 +185,7 @@ aside#sidebar a {
   margin: 0.5rem;
 }
 
-/*------------------------------ HELPER CLASSES ------------------------------*/
+/*------------------------------ HELPER CLASSES -----------------------------*/
 .light-bg {
   background: #e6e6e6;
 }
@@ -199,7 +203,7 @@ aside#sidebar a {
   margin: auto;
 }
 
-/*---------------------------------- COVER-2 ---------------------------------*/
+/*---------------------------------- COVER-2 --------------------------------*/
 #cover-2 {
   background-image: url(../images/bg.jpeg);
   background-size: cover;
