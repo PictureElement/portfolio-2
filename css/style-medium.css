@@ -11,13 +11,8 @@ header nav {
   text-align: right;
 }
 
-/*----------------------------- CERTIFICATIONS -------------------------------*/
-section#certifications {
-  text-align: left;
-}
-
-/*--------------------------------- BADGES -----------------------------------*/
-section#badges {
+/*----------------------------- ONLINE COURSES ------------------------------*/
+section#online-courses {
   text-align: left;
 }
 

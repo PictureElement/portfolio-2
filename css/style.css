@@ -139,17 +139,12 @@ header nav {
   list-style-type: none;
 }
 
-/*----------------------------- CERTIFICATIONS -------------------------------*/
-section#certifications {
+/*----------------------------- ONLINE COURSES ------------------------------*/
+section#online-courses {
   text-align: center;
 }
 
-/*--------------------------------- BADGES -----------------------------------*/
-section#badges {
-  text-align: center;
-}
-
-/*--------------------------- BADGE & CERT IMAGES ----------------------------*/
+/*--------------------------- ONLINE COURSE IMAGES --------------------------*/
 .image-link {
   opacity: 0.8;
 }
