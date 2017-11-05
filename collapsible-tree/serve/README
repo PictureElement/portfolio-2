@@ -1,0 +1,22 @@
+By default, for security reasons Google Chrome does not load local files.
+In order to use local files, you need to start a simple server on your computer (e.g. http-server, SimpleHTTPServer). Also be sure to enable CORS to have access to the file. 
+
+http-server
+-----------
+A simple, zero-configuration command-line http server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
+
+Installation: npm install http-server -g
+
+Execution: http-server [path] [options]
+
+Where: [path] defaults to ./public if the folder exists, and ./ otherwise.
+
+Visit: http://localhost:8080 to view your server
+
+Cross-Origin Resource Sharing (CORS)
+------------------------------------
+A resource makes a cross-origin HTTP request when it requests a resource from a different domain, protocol, or port to its own. For example, an HTML page served from http://domain-a.com makes an <img> src request for http://domain-b.com/image.jpg. Many pages on the web today load resources like CSS stylesheets, images, and scripts from separate domains.
+
+Enable CORS (http-server)
+-------------------------
+http-server --cors

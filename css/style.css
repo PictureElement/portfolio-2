@@ -157,25 +157,27 @@ header nav {
 }
 
 
-
 /*--------------------------------- SKILLS ----------------------------------*/
-#skills li {
-    display: inline;
-    float: left;
-    background-color: #ffffff;
-    font-family: 'Roboto Mono', monospace;
-    color: #a0a0a0;
-    border: 1px solid black;
-    border-radius: .3rem;
-    padding: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
+
+/* Making Embedded Content Work In A Responsive iFrame */
+.graph-wrapper {
+    position: relative;
+    /* The height will be 83.3333% of the width (960px x 800px) */
+    padding-bottom: 83.3333%;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
-#skills ul {
-    list-style-type: none;
+/* Making Embedded Content Work In A Responsive iFrame */
+.graph-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
-
 
 
 /*----------------------------- ONLINE COURSES ------------------------------*/
