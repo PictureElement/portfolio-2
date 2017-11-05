@@ -32,6 +32,8 @@ h3 {
     font-size: 1.5rem;
     /* 24px */
     color: #707070;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 
 p {
@@ -52,13 +54,15 @@ a:hover {
 }
 
 .main-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
 }
 
+.main-content > div {
+    margin-top: 20px;
+}
 
 /*---------------------------- RESPONSIVE IMAGES ----------------------------*/
-
 
 /* profile image container */
 
