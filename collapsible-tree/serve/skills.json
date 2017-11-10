@@ -136,7 +136,7 @@
                 {
                   "name": "Libraries",
                   "children": [{
-                      "name": "jQuerry",
+                      "name": "jQuery",
                       "children": [{
                           "name": "DOM manipulation",
                           "size": 19
