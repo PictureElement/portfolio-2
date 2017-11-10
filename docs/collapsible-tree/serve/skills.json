@@ -137,7 +137,15 @@
                   "name": "Libraries",
                   "children": [{
                       "name": "jQuerry",
-                      "size": 19
+                      "children": [{
+                          "name": "DOM manipulation",
+                          "size": 19
+                        },
+                        {
+                          "name": "Event listeners",
+                          "size": 78
+                        }
+                      ]
                     },
                     {
                       "name": "D3.js",
@@ -274,6 +282,10 @@
         {
           "name": "Algorithms",
           "size": 77
+        },
+        {
+          "name": "Object-oriented design",
+          "size": 79
         }
       ]
     },
