@@ -177,6 +177,18 @@
           }]
         },
         {
+          "name": "Misc. frameworks",
+          "children": [{
+              "name": "Electron",
+              "size": 80
+            },
+            {
+              "name": "Foundation for Emails 2",
+              "size": 81
+            }
+          ]
+        },
+        {
           "name": "Hosting",
           "children": [{
               "name": "cPanel",
