@@ -99,7 +99,6 @@ hr {
     width: 70px;
     max-width: 100%;
     height: auto;
-    border-radius: 50%;
 }
 
 
@@ -126,7 +125,7 @@ hr {
 /*---------------------------------- HEADER ---------------------------------*/
 header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    padding: 1rem;
+    padding: 1rem 0;
     background: #35424a;
     border-bottom: 0.25rem solid #de1b1b;
 }

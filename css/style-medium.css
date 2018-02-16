@@ -4,11 +4,12 @@ html {
 
 /*--------------------------------- HEADER ----------------------------------*/
 header .row {
-  padding: 0 .5rem;
+  
 }
 
 header nav {
   text-align: right;
+  margin-right: 26px;
 }
 
 /*----------------------------- ONLINE COURSES ------------------------------*/
@@ -34,18 +35,16 @@ section#online-courses {
   align-items: stretch;
 }
 
-/*---------------------------- RESPONSIVE IMAGES ----------------------------*/
+/*--------------------------------- IMAGES ----------------------------------*/
 #profile-image {
-  width: 120px;
-  /* Align to the left */
   margin: 0;
+  margin-left: 0;
   padding: 0;
+  margin-left: 30px;
 }
 
 .logo {
-  width: 90px;
-  /* Align to the left */
-  margin: 0;
+  margin-left: 42px;
 }
 
 /* Certification and badge icons */
