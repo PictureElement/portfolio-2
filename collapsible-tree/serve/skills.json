@@ -7,63 +7,92 @@
           "children": [{
               "name": "Multimedia tools",
               "children": [{
-                  "name": "Adobe Photoshop",
-                  "size": 1
+                  "name": "Adobe Photoshop"
                 },
                 {
-                  "name": "Adobe Illustrator",
-                  "size": 2
+                  "name": "Adobe Illustrator"
                 },
                 {
-                  "name": "Adobe Lightroom",
-                  "size": 3
+                  "name": "Adobe Lightroom"
                 },
                 {
-                  "name": "Adobe Premiere Pro",
-                  "size": 4
+                  "name": "Adobe Premiere Pro"
                 },
                 {
-                  "name": "GraphicsMagick",
-                  "size": 5
+                  "name": "GraphicsMagick"
                 }
               ]
             },
             {
               "name": "Responsive web design",
               "children": [{
-                  "name": "Common responsive patterns",
-                  "size": 6
+                  "name": "Common responsive patterns"
                 },
                 {
-                  "name": "Media queries",
-                  "size": 7
+                  "name": "Media queries"
                 },
                 {
-                  "name": "Flexbox",
-                  "size": 74
+                  "name": "Flexbox"
                 },
                 {
                   "name": "Responsive images",
-                  "size": 75
+                  "children": [{
+                      "name": "srcset attribute"
+                    },
+                    {
+                      "name": "<picture> element"
+                    }
+                  ]
                 }
               ]
             },
             {
               "name": "Web authoring & debugging",
               "children": [{
-                "name": "Chrome DevTools",
-                "size": 8
+                "name": "Chrome DevTools"
               }]
             },
             {
               "name": "Web perf. & opt.",
               "children": [{
-                  "name": "Lighthouse",
-                  "size": 9
+                  "name": "Lighthouse"
                 },
                 {
-                  "name": "PageSpeed Insights",
-                  "size": 10
+                  "name": "PageSpeed Insights"
+                },
+                {
+                  "name": "Vendor-prefixed CSS"
+                },
+                {
+                  "name": "Clean unnecessary CSS"
+                },
+                {
+                  "name": "Minify resources"
+                },
+                {
+                  "name": "Inline critical CSS"
+                },
+                {
+                  "name": "Optimize images"
+                },
+                {
+                  "name": "async & defer attributes"
+                },
+                {
+                  "name": "System fonts"
+                }
+              ]
+            },
+            {
+              "name": "Toolkits",
+              "children": [{
+                  "name": "Font Awesome"
+                },
+                {
+                  "name": "Octicons"
+                },
+                {
+                  "name": "Google Fonts"
                 }
               ]
             },
@@ -72,27 +101,20 @@
               "children": [{
                   "name": "Frameworks",
                   "children": [{
-                      "name": "Bootstrap",
-                      "size": 11
-                    },
-                    {
-                      "name": "Foundation*",
-                      "size": 12
+                      "name": "Bootstrap"
                     }
                   ]
                 },
                 {
                   "name": "Validation",
                   "children": [{
-                    "name": "W3C CSS val. svc.",
-                    "size": 13
+                    "name": "W3C CSS val. svc."
                   }]
                 },
                 {
                   "name": "Preprocessors",
                   "children": [{
-                    "name": "SASS*",
-                    "size": 14
+                    "name": "SASS*"
                   }]
                 }
               ]
@@ -102,13 +124,11 @@
               "children": [{
                   "name": "Validation",
                   "children": [{
-                    "name": "W3C markup val. svc.",
-                    "size": 15
+                    "name": "W3C markup val. svc."
                   }]
                 },
                 {
-                  "name": "Semantic HTML",
-                  "size": 16
+                  "name": "Semantic HTML"
                 }
               ]
             },
@@ -118,11 +138,25 @@
                   "name": "Task Runners",
                   "children": [{
                       "name": "GruntJS",
-                      "size": 17
-                    },
-                    {
-                      "name": "GulpJS*",
-                      "size": 18
+                      "children": [{
+                          "name": "autoprefixer"
+                        },
+                        {
+                          "name": "purifycss"
+                        },
+                        {
+                          "name": "cssmin"
+                        },
+                        {
+                          "name": "uglify"
+                        },
+                        {
+                          "name": "critical"
+                        },
+                        {
+                          "name": "htmlmin"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -130,7 +164,10 @@
                   "name": "Data interchange formats",
                   "children": [{
                     "name": "JSON",
-                    "size": 73
+                    "children": [{
+                        "name": "JSONLint"
+                      }
+                    ]
                   }]
                 },
                 {
@@ -138,30 +175,25 @@
                   "children": [{
                       "name": "jQuery",
                       "children": [{
-                          "name": "DOM manipulation",
-                          "size": 19
+                          "name": "DOM manipulation"
                         },
                         {
-                          "name": "Event listeners",
-                          "size": 78
+                          "name": "Event listeners"
                         }
                       ]
                     },
                     {
-                      "name": "D3.js",
-                      "size": 70
+                      "name": "D3.js"
                     }
                   ]
                 },
                 {
                   "name": "Frameworks",
                   "children": [{
-                      "name": "AngularJS*",
-                      "size": 20
+                      "name": "AngularJS*"
                     },
                     {
-                      "name": "ReactJS*",
-                      "size": 21
+                      "name": "ReactJS*"
                     }
                   ]
                 }
@@ -170,53 +202,66 @@
           ]
         },
         {
+          "name": "Progressive Web Apps",
+          "children": [{
+              "name": "Offline content"
+            },
+            {
+              "name": "Served over HTTPS"
+            },
+            {
+              "name": "Fast load"
+            },
+            {
+              "name": "Cross-browser support"
+            },
+            {
+              "name": "Add to Home Screen prompt"
+            },
+            {
+              "name": "Responsive"
+            }
+          ]
+        },
+        {
           "name": "CMS",
           "children": [{
-            "name": "WordPress",
-            "size": 22
+            "name": "WordPress"
           }]
         },
         {
           "name": "Misc. frameworks",
           "children": [{
-              "name": "Electron",
-              "size": 80
+              "name": "Electron"
             },
             {
-              "name": "Foundation for Emails 2",
-              "size": 81
+              "name": "Foundation for Emails 2"
             }
           ]
         },
         {
           "name": "Hosting",
           "children": [{
-              "name": "cPanel",
-              "size": 71
+              "name": "cPanel"
             },
             {
-              "name": "Bluehost",
-              "size": 72
+              "name": "Bluehost"
             }
           ]
         },
         {
           "name": "Essential",
           "children": [{
-              "name": "Git",
-              "size": 23
+              "name": "Git"
             },
             {
-              "name": "GitHub",
-              "size": 24
+              "name": "GitHub"
             },
             {
-              "name": "Linux",
-              "size": 25
+              "name": "Linux"
             },
             {
-              "name": "Sublime Text 3",
-              "size": 26
+              "name": "Sublime Text 3"
             }
           ]
         }
@@ -229,75 +274,60 @@
           "children": [{
               "name": "IDEs",
               "children": [{
-                  "name": "Eclipse",
-                  "size": 27
+                  "name": "Eclipse"
                 },
                 {
-                  "name": "Code::Blocks",
-                  "size": 28
+                  "name": "Code::Blocks"
                 },
                 {
-                  "name": "Geany",
-                  "size": 29
+                  "name": "Geany"
                 }
               ]
             },
             {
               "name": "Debugging",
               "children": [{
-                "name": "Valgrind",
-                "size": 30
+                "name": "Valgrind"
               }]
             },
             {
               "name": "Libraries",
               "children": [{
-                  "name": "PAPI",
-                  "size": 31
+                  "name": "PAPI"
                 },
                 {
-                  "name": "OpenMP",
-                  "size": 32
+                  "name": "OpenMP"
                 },
                 {
-                  "name": "MPICH",
-                  "size": 33
+                  "name": "MPICH"
                 },
                 {
-                  "name": "Blitz++",
-                  "size": 34
+                  "name": "Blitz++"
                 },
                 {
-                  "name": "Eigen",
-                  "size": 35
+                  "name": "Eigen"
                 }
               ]
             }
           ]
         },
         {
-          "name": "JavaScript",
-          "size": 76
+          "name": "JavaScript"
         },
         {
-          "name": "R",
-          "size": 36
+          "name": "R"
         },
         {
-          "name": "Bash",
-          "size": 37
+          "name": "Bash"
         },
         {
-          "name": "MIPS assembly",
-          "size": 38
+          "name": "MIPS assembly"
         },
         {
-          "name": "Algorithms",
-          "size": 77
+          "name": "Algorithms"
         },
         {
-          "name": "Object-oriented design",
-          "size": 79
+          "name": "Object-oriented design"
         }
       ]
     },
@@ -306,16 +336,13 @@
       "children": [{
           "name": "Anonymity",
           "children": [{
-              "name": "VPN",
-              "size": 39
+              "name": "VPN"
             },
             {
-              "name": "Tor",
-              "size": 40
+              "name": "Tor"
             },
             {
-              "name": "ProxyChains",
-              "size": 41
+              "name": "ProxyChains"
             }
           ]
         },
@@ -324,120 +351,99 @@
           "children": [{
             "name": "Nmap",
             "children": [{
-              "name": "NSE",
-              "size": 42
+              "name": "NSE"
             }]
           }]
         },
         {
           "name": "Wireless network attacks",
           "children": [{
-              "name": "Aircrack-ng suite",
-              "size": 43
+              "name": "Aircrack-ng suite"
             },
             {
-              "name": "Reaver",
-              "size": 44
+              "name": "Reaver"
             }
           ]
         },
         {
           "name": "MitM attacks",
           "children": [{
-              "name": "Burp suite",
-              "size": 45
+              "name": "Burp suite"
             },
             {
-              "name": "Squid caching proxy",
-              "size": 46
+              "name": "Squid caching proxy"
             },
             {
-              "name": "Evil twin & Rogue AP",
-              "size": 47
+              "name": "Evil twin & Rogue AP"
             }
           ]
         },
         {
           "name": "Vulnerability exploitation",
           "children": [{
-              "name": "NSE",
-              "size": 48
+              "name": "NSE"
             },
             {
-              "name": "Metasploit",
-              "size": 49
+              "name": "Metasploit"
             }
           ]
         },
         {
           "name": "Penetration testing",
           "children": [{
-              "name": "Kali Linux",
-              "size": 50
+              "name": "Kali Linux"
             },
             {
-              "name": "Metasploitable",
-              "size": 51
+              "name": "Metasploitable"
             }
           ]
         },
         {
           "name": "DNS spoofing",
           "children": [{
-              "name": "Social Engineer Toolkit",
-              "size": 52
+              "name": "Social Engineer Toolkit"
             },
             {
-              "name": "DNSChef DNS proxy",
-              "size": 53
+              "name": "DNSChef DNS proxy"
             }
           ]
         },
         {
           "name": "Offline/Online psw cracking",
           "children": [{
-              "name": "John the Ripper",
-              "size": 54
+              "name": "John the Ripper"
             },
             {
-              "name": "THC-Hydra",
-              "size": 55
+              "name": "THC-Hydra"
             }
           ]
         },
         {
           "name": "Signal jamming & DoS attacks",
           "children": [{
-              "name": "Aircrack-ng suite",
-              "size": 56
+              "name": "Aircrack-ng suite"
             },
             {
-              "name": "SYN flooding",
-              "size": 57
+              "name": "SYN flooding"
             },
             {
-              "name": "Slow HTTP attack (Slowloris)",
-              "size": 58
+              "name": "Slow HTTP attack (Slowloris)"
             }
           ]
         },
         {
-          "name": "Keyloggers",
-          "size": 59
+          "name": "Keyloggers"
         },
         {
           "name": "Reverse shells",
           "children": [{
-              "name": "Metasploit",
-              "size": 60
+              "name": "Metasploit"
             },
             {
-              "name": "Netcat",
-              "size": 61
+              "name": "Netcat"
             },
             {
-              "name": "NSE",
-              "size": 62
+              "name": "NSE"
             }
           ]
         }
@@ -446,32 +452,25 @@
     {
       "name": "Other",
       "children": [{
-          "name": "Gnuplot",
-          "size": 63
+          "name": "Gnuplot"
         },
         {
-          "name": "GNU Octave",
-          "size": 64
+          "name": "GNU Octave"
         },
         {
-          "name": "Magic VLSI",
-          "size": 65
+          "name": "Magic VLSI"
         },
         {
-          "name": "Word processor",
-          "size": 66
+          "name": "Word processor"
         },
         {
-          "name": "Spread sheet",
-          "size": 67
+          "name": "Spread sheet"
         },
         {
-          "name": "Presentation software",
-          "size": 68
+          "name": "Presentation software"
         },
         {
-          "name": "Google Drive",
-          "size": 69
+          "name": "Google Drive"
         }
       ]
     }
