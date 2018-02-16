@@ -62,9 +62,6 @@ hr {
     margin: 20px 0;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
-    background-image: -moz-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
-    background-image: -ms-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
     background-image: -o-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
 }
 
@@ -92,18 +89,20 @@ hr {
     height: auto;
 }
 
-
+.image-link {
+  display: inline-block;
+  margin-top: 20px;
+}
 
 /* Certification icon */
-.image-link {
+.authority {
     width: 70px;
     max-width: 100%;
     height: auto;
 }
 
-
-
 /*---------------------------------- COVER-1 --------------------------------*/
+
 #cover-1 {
     background-image: url(../images/bg.jpeg);
     background-size: cover;
@@ -120,11 +119,11 @@ hr {
     color: white;
 }
 
-
-
 /*---------------------------------- HEADER ---------------------------------*/
+
 header {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     padding: 1rem 0;
     background: #35424a;
     border-bottom: 0.25rem solid #de1b1b;
@@ -132,6 +131,7 @@ header {
 
 header a {
     color: white;
+    -webkit-transition: .3s;
     transition: .3s;
     text-decoration: none;
     text-transform: uppercase;
@@ -144,8 +144,6 @@ header li {
     padding: 1rem;
 }
 
-
-
 /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
 header #current {
     color: #de1b1b;
@@ -154,7 +152,6 @@ header #current {
 header nav {
     text-align: center;
 }
-
 
 /*--------------------------------- SKILLS ----------------------------------*/
 
@@ -178,15 +175,14 @@ header nav {
     border: none;
 }
 
-
 /*----------------------------- ONLINE COURSES ------------------------------*/
+
 section#online-courses {
     text-align: center;
 }
 
-
-
 /*-------------------------- ONLINE COURSES IMAGES --------------------------*/
+
 .image-link {
     opacity: 0.8;
 }
@@ -195,9 +191,8 @@ section#online-courses {
     opacity: 1.0;
 }
 
-
-
 /*---------------------------------- FOOTER ---------------------------------*/
+
 footer {
     background-color: #35424a;
     text-align: center;
@@ -209,9 +204,8 @@ footer a {
     color: white;
 }
 
-
-
 /*--------------------------------- SIDEBAR ---------------------------------*/
+
 aside#sidebar {
     text-align: center;
 }
@@ -223,15 +217,13 @@ aside#sidebar h3 {
 
 aside#sidebar a {
     /* Set to inline-block in order for the text-align to have an effect on it */
-
     display: inline-block;
     text-decoration: none;
     margin: 1rem;
 }
 
-
-
 /*------------------------------ HELPER CLASSES -----------------------------*/
+
 .light-bg {
     background: #e6e6e6;
 }
@@ -249,9 +241,8 @@ aside#sidebar a {
     margin: auto;
 }
 
-
-
 /*---------------------------------- COVER-2 --------------------------------*/
+
 #cover-2 {
     background-image: url(../images/bg.jpeg);
     background-size: cover;
@@ -259,7 +250,6 @@ aside#sidebar a {
     background-position: center;
     text-align: center;
     /* Shadow with a blur effect */
-
     text-shadow: -1px 0 2px black;
     border-bottom: 0.25rem solid #de1b1b;
 }
