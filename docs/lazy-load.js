@@ -28,6 +28,7 @@ function callback(entries, observer) {
 function loadImage(image) {
   // Get data-src attribute
   var src = image.dataset.src;
+  console.log('TEST:' + src);
   // fetch image
   fetch(src).then(function(response) {
     // Prevent image from being lazy loaded a second time 
