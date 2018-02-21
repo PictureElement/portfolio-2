@@ -60,3 +60,9 @@ section#online-courses {
 .authority {
   width: 90px;
 }
+
+/*--------------------------------- SKILLS ----------------------------------*/
+
+iframe {
+    height: 650px;
+}

@@ -5,39 +5,32 @@ var margin = {top: 20, right: 50, bottom: 20, left: 50},
 var i = 0,
     duration = 750,
     root;
-
+/*
 var tree = d3.layout.tree()
     .size([height, width]);
+*/
 
-var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
+var tree = d3.layout.tree()
+    .separation(function(a, b) { return ((a.parent == root) && (b.parent == root)) ? 3 : 1; })
+    .size([height, width]);
+
+var diagonal = d3.svg.diagonal().projection(function(d) { 
+    return [d.y, d.x]; 
+});
 
 var svg = d3.select("body").append("svg")
   .attr("viewBox", "0 0 960 800")
   .attr("preserveAspectRatio", "xMidYMid meet")
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("https://raw.githubusercontent.com/PictureElement/portfolio-2/master/collapsible-tree/serve/skills.json", function(error, skills) {
+d3.json("skills.json", function(error, skills) {
   if (error) throw error;
-
   root = skills;
   root.x0 = height / 2;
   root.y0 = 0;
-
-  function collapse(d) {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-  }
-
-  root.children.forEach(collapse);
   update(root);
 });
-
-d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
 
@@ -46,7 +39,9 @@ function update(source) {
       links = tree.links(nodes);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 140; });
+  nodes.forEach(function(d) {
+      d.y = d.depth * 130;
+  });
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -136,4 +131,33 @@ function click(d) {
     d._children = null;
   }
   update(d);
+}
+
+function collapse(d) {
+  if (d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
+}
+
+function expand(d){   
+    var children = (d.children)?d.children:d._children;
+    if (d._children) {        
+        d.children = d._children;
+        d._children = null;       
+    }
+    if(children)
+      children.forEach(expand);
+}
+
+function expandAll(){
+    expand(root); 
+    update(root);
+}
+
+function collapseAll(){
+    root.children.forEach(collapse);
+    collapse(root);
+    update(root);
 }

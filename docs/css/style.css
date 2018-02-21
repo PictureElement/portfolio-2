@@ -155,24 +155,11 @@ header nav {
 
 /*--------------------------------- SKILLS ----------------------------------*/
 
-/* Making Embedded Content Work In A Responsive iFrame */
-.graph-wrapper {
-    position: relative;
-    /* The height will be 83.3333% of the width (960px x 800px) */
-    padding-bottom: 83.3333%;
-    height: 0;
+iframe {
     width: 100%;
-    overflow: hidden;
-}
-
-/* Making Embedded Content Work In A Responsive iFrame */
-.graph-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    height: 260px;
     border: none;
+    overflow: hidden;
 }
 
 /*----------------------------- ONLINE COURSES ------------------------------*/

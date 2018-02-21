@@ -18,3 +18,25 @@
   stroke: #9099a2;
   stroke-width: 1px;
 }
+
+button.expand {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+}
+
+button.collapse {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+}

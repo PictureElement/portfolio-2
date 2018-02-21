@@ -32,7 +32,7 @@ function loadImage(image) {
   // fetch image
   fetch(src).then(function(response) {
     // Prevent image from being lazy loaded a second time 
-    image.classList.add('js-lazy-load--handled');
+    image.classList.remove('js-lazy-load');
     // Set src attribute
     image.src = src;
   })
