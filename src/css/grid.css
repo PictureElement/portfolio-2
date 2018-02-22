@@ -2,32 +2,23 @@
  * Make sure that the padding and border are included in the total width and
  * height of the elements.
  */
+
 * {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-	height: 100%;
-	max-width: 100%;
+  height: 100%;
+  max-width: 100%;
 }
 
 .row {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	        flex-direction: column; /* Mobile-first design */
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* Mobile-first design */
+  align-items: center;
 }
 
 [class*="col-"] {
-	width: 100%;
+  width: 100%;
 }

@@ -1,17 +1,15 @@
 .row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 /* 1/12 of the page width */
+
 .col-1 {
   width: 8.33%;
 }
 
 /* 2/12 of the page width */
+
 .col-2 {
   width: 16.66%;
 }

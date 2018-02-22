@@ -3,49 +3,41 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
-  background-color: white;
-  color: #a0a0a0;
 }
 
 ul {
-  padding-left: 0;
   list-style-type: none;
+  padding-left: 0;
 }
 
 h1 {
+  color: #e62739;
   font-size: 2.25rem;
-  /* 36px */
-  color: #de1b1b;
 }
 
 h2 {
-  color: black;
-  font-family: 'Arvo', serif;
+  font-family: 'Lobster', cursive;
   font-size: 1.875rem;
-  /* 30px */
   text-align: center;
 }
 
 h3 {
   font-size: 1.5rem;
   /* 24px */
-  color: #707070;
-  margin-top: 0;
   margin-bottom: 14px;
-}
-
-p {
-  font-family: 'Arvo', serif;
+  margin-top: 0;
 }
 
 a {
-  color: #a0a0a0;
+  color: #333;
 }
 
 a:hover {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
@@ -58,37 +50,35 @@ a:hover {
 }
 
 hr {
-  margin: 20px 0;
+  background-image: linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
   border: 0;
   height: 1px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#d9d9d9), color-stop(#8c8b8b), to(#d9d9d9));
-  background-image: -webkit-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
-  background-image: -o-linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
-  background-image: linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
+  margin: 20px 0;
 }
 
 /*---------------------------- RESPONSIVE IMAGES ----------------------------*/
 
 /* profile image container */
-#flex-item-img {
-  padding: 0;
+
+.flex-item-img {
   margin: 0;
+  padding: 0;
 }
 
-#profile-image {
+.profile-image {
   display: block;
-  margin: auto;
-  width: 100px;
-  max-width: 100%;
   height: auto;
+  margin: auto;
+  max-width: 100%;
+  width: 100px;
 }
 
 .logo {
   display: block;
-  margin: auto;
-  width: 70px;
-  max-width: 100%;
   height: auto;
+  margin: auto;
+  max-width: 100%;
+  width: 70px;
 }
 
 .image-link {
@@ -97,49 +87,44 @@ hr {
 }
 
 /* Certification icon */
+
 .authority {
-  width: 70px;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
+  width: 70px;
 }
 
 /*---------------------------------- COVER-1 --------------------------------*/
 
-#cover-1 {
+.cover-1 {
   background-image: url(../images/bg.jpeg);
-  -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   /* Shadow with a blur effect */
-  text-shadow: -1px 0 2px black;
-  border-bottom: 0.25rem solid #de1b1b;
+  text-shadow: -1px 0 2px #000;
 }
 
-#tagline {
-  color: white;
+.tagline {
+  color: #fff;
 }
 
 /*---------------------------------- HEADER ---------------------------------*/
 
 header {
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  padding: 1rem 0;
   background: #35424a;
-  border-bottom: 0.25rem solid #de1b1b;
+  border-bottom: 0.25rem solid #e62739;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  padding: 1rem 0;
 }
 
 header a {
-  color: white;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
+  color: #fff;
   transition: .3s;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
-  /* 16px */
 }
 
 header li {
@@ -148,8 +133,9 @@ header li {
 }
 
 /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
-header #current {
-  color: #de1b1b;
+
+.current {
+  color: #e62739;
 }
 
 header nav {
@@ -159,14 +145,14 @@ header nav {
 /*--------------------------------- SKILLS ----------------------------------*/
 
 iframe {
-  width: 100%;
-  height: 260px;
   border: none;
+  height: 260px;
+  width: 100%;
 }
 
 /*----------------------------- ONLINE COURSES ------------------------------*/
 
-section#online-courses {
+.online-courses {
   text-align: center;
 }
 
@@ -184,44 +170,51 @@ section#online-courses {
 
 footer {
   background-color: #35424a;
-  text-align: center;
   padding: .5rem 1rem;
+  text-align: center;
 }
 
 footer p, footer a {
-  color: white;
+  color: #ccc;
 }
 
 /*--------------------------------- SIDEBAR ---------------------------------*/
 
-aside#sidebar {
+.sidebar {
+  color: #ccc;
   text-align: center;
 }
 
-aside#sidebar h3 {
-  color: white;
-  border-bottom: 1px solid white;
+.sidebar h3 {
+  border-bottom: 1px solid #ccc;
 }
 
-aside#sidebar a {
+.sidebar a {
+  color: #ccc;
   /* Set to inline-block in order for the text-align to have an effect on it */
   display: inline-block;
-  text-decoration: none;
   margin: 1rem;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.sidebar a:hover {
+  color: #fff;
 }
 
 /*------------------------------ HELPER CLASSES -----------------------------*/
 
 .light-bg {
-  background: #e6e6e6;
+  background: #e1e8f0;
 }
 
-.dark-bg {
-  background: #35424a;
+.violet-bg {
+  /*background: #35424a;*/
+  background: #9068be;
 }
 
 .red-bg {
-  background: #de1b1b;
+  background: #e62739;
 }
 
 .center {
@@ -231,14 +224,12 @@ aside#sidebar a {
 
 /*---------------------------------- COVER-2 --------------------------------*/
 
-#cover-2 {
+.cover-2 {
   background-image: url(../images/bg.jpeg);
-  -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   /* Shadow with a blur effect */
   text-shadow: -1px 0 2px black;
-  border-bottom: 0.25rem solid #de1b1b;
 }

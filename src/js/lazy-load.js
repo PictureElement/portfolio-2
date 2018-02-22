@@ -11,27 +11,27 @@ var options = {
 var io = new IntersectionObserver(callback, options);
 
 // Start observing the images
-images.forEach(function(image) {
+images.forEach(function (image) {
   io.observe(image);
 });
 
 // Callback
-function callback(entries, observer) {
-  entries.forEach(function(entry) {
-    if(entry.intersectionRatio > 0) {
+function callback (entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.intersectionRatio > 0) {
       observer.unobserve(entry.target);
       loadImage(entry.target);
     }
   })
 }
 
-function loadImage(image) {
+function loadImage (image) {
   // Get data-src attribute
   var src = image.dataset.src;
   console.log('TEST:' + src);
   // fetch image
-  fetch(src).then(function(response) {
-    // Prevent image from being lazy loaded a second time 
+  fetch(src).then(function (response) {
+    // Prevent image from being lazy loaded a second time
     image.classList.remove('js-lazy-load');
     // Set src attribute
     image.src = src;
