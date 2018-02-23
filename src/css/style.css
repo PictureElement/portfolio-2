@@ -37,7 +37,7 @@ hr {
     margin: 20px auto;
     height: 1px;
     background: #9068be;
-    background-image: linear-gradient(to right, #cbb8e0, #9068be, #cbb8e0);
+    background-image: linear-gradient(to right,  #b3b3b3, #333,  #b3b3b3);
 }
 
 a {
