@@ -82,7 +82,7 @@ if ('IntersectionObserver' in window) {
     io.observe(image);
   });
   // Disconnect the observer
-  observer.disconnect();
+  io.disconnect();
 } else {
   loadImagesImmediately(images);
 }
