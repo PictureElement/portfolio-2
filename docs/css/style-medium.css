@@ -46,6 +46,10 @@ header nav {
   margin-left: 42px;
 }
 
+.image-link {
+  margin-top: 0;
+}
+
 /* Certification and badge icons */
 
 .authority {

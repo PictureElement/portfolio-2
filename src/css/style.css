@@ -32,6 +32,14 @@ h3 {
   margin-top: 0;
 }
 
+hr {
+    border: 0;
+    margin: 20px auto;
+    height: 1px;
+    background: #9068be;
+    background-image: linear-gradient(to right, #cbb8e0, #9068be, #cbb8e0);
+}
+
 a {
   color: #333;
 }
@@ -49,12 +57,7 @@ a:hover {
   padding: 20px;
 }
 
-hr {
-  background-image: linear-gradient(left, #d9d9d9, #8c8b8b, #d9d9d9);
-  border: 0;
-  height: 1px;
-  margin: 20px 0;
-}
+
 
 /*---------------------------- RESPONSIVE IMAGES ----------------------------*/
 
@@ -79,11 +82,6 @@ hr {
   margin: auto;
   max-width: 100%;
   width: 70px;
-}
-
-.image-link {
-  display: inline-block;
-  margin-top: 20px;
 }
 
 /* Certification icon */
@@ -159,6 +157,8 @@ iframe {
 /*-------------------------- ONLINE COURSES IMAGES --------------------------*/
 
 .image-link {
+  margin-top: 14px;
+  display: inline-block;
   opacity: 0.8;
 }
 
