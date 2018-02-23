@@ -57,7 +57,29 @@ a:hover {
   padding: 20px;
 }
 
+/*---------------------------- RETURN TO TOP BTN ----------------------------*/
 
+.return-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: rgba(53,66,74,0.8);
+}
+
+.return-to-top:hover {
+  background-color: rgba(53,66,74,1);
+}
+
+.return-to-top i {
+  color:#fff;
+  font-size:20px;
+}
 
 /*---------------------------- RESPONSIVE IMAGES ----------------------------*/
 
@@ -172,6 +194,8 @@ footer {
   background-color: #35424a;
   padding: .5rem 1rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 footer p, footer a {

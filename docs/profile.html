@@ -15,10 +15,12 @@
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/style-medium.css">
     <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/style-large.css">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <!-- RETURN TO TOP BUTTON -->
+    <button class='return-to-top' title='Return to top'><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
     <header>
       <div class="row">
         <div class="col-2">
@@ -63,13 +65,16 @@
                 degree in Computer Engineering from the University of Cyprus.
               </p>
               <p>
-                I enjoy technical writing and documenting things I've learned. I
-                love coding and design that's why I decided to follow a career
-                in web development. Since my graduation in 2016, I’ve been
-                learning various important skills and tools to help me excel in
-                this sector. At the same time, I work as a freelance web
-                developer and a co-founder of AerialWorxs, an unmanned aerial
-                systems solutions company based in Cyprus.
+                I am a tech-savvy who enjoys modern technologies, coding,
+                technical writing, and computer-related staff. My motto is
+                "The sure way to success is patience and persistence."
+              </p>
+              <p>
+                I like to challenge myself, that is why I've decided to follow a
+                career in web development. Since my graduation (2016), I’ve been
+                learning web technologies through massive online courses,
+                videos, and knowledge resources. I am totally dedicated to
+                the field.
               </p>
               <p>
                 I love the feeling of sitting countless hours in front of a
@@ -89,7 +94,12 @@
                 general info about me and showcases my work for people who are
                 curious. As you probably noticed the site is hosted on GitHub
                 Pages and is
-                <a href="https://github.com/PictureElement/portfolio-2-html5">open source</a>.
+                <a href="https://github.com/PictureElement/portfolio-2">open source</a>.
+              </p>
+              <p>
+                Please feel free to
+                <a href="mailto:marios.sofokleous@yandex.com">contact</a> me for
+                any matter. I am always open to suggestions or advice.
               </p>
             </article>
           </div>
@@ -142,5 +152,39 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+      // jQuery Methods
+      // --------------
+      // .click(): Bind an event handler to the "click" JavaScript event, or trigger that event on an element.
+      // .scroll(): Bind an event handler to the "scroll" JavaScript event, or trigger that event on an element.
+      // .scrollTop(): Get the current vertical position of the scroll bar for the first element in the set of matched elements.
+      // .fadeIn(): Display the matched elements by fading them to opaque.
+      // .fadeOut(): Hide the matched elements by fading them to transparent.
+      // .animate(): Perform a custom animation of a set of CSS properties.
+
+      // Display/Hide return to top button
+      $(window).scroll(function() {
+        // Height (in pixels) of the browser window viewport including, if
+        // rendered, the horizontal scrollbar
+        var intViewportHeight = window.innerHeight;
+        if($(this).scrollTop() > intViewportHeight) {
+          $('.return-to-top').fadeIn(200);
+        }
+        else {
+          $('.return-to-top').fadeOut(200);
+        }
+      });
+
+      // Return to top
+      $('.return-to-top').click(function() {
+        $('html').animate({
+          // scrollTop is a property of the DOM object */
+          // Return the scrollTop property: element.scrollTop
+          // Set the scrollTop property: element.scrollTop = pixels
+          scrollTop: 0
+        }, 500);
+      });
+    </script>
   </body>
 </html>

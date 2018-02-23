@@ -15,10 +15,12 @@
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/style-medium.css">
     <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/style-large.css">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <!-- RETURN TO TOP BUTTON -->
+    <button class='return-to-top' title='Return to top'><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
     <header>
       <div class="row">
         <div class="col-2">
@@ -129,12 +131,10 @@
               <h3>Learning How to Learn: Powerful mental tools to help you master tough subjects (with Honors)</h3>
               <p><strong>Institution:</strong> Coursera</p>
               <p class="description">
-                <strong>Description:</strong> learn about how the brain uses two
-                very different learning modes and how it encapsulates
-                information. Learn about the illusions of learning, memory
-                techniques, dealing with procrastination, and best practices
-                shown by research to be most effective in helping you master
-                tough subjects.
+                <strong>Description:</strong> learn about the two modes of
+                thinking, illusions of learning, memory techniques, dealing with
+                procrastination, and best practices shown by research to be most
+                effective in helping you master tough subjects.
               </p>
             </div>
             <div class="col-2">
@@ -648,5 +648,39 @@
       </div>
     </footer>
     <script src="js/lazy-load.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+      // jQuery Methods
+      // --------------
+      // .click(): Bind an event handler to the "click" JavaScript event, or trigger that event on an element.
+      // .scroll(): Bind an event handler to the "scroll" JavaScript event, or trigger that event on an element.
+      // .scrollTop(): Get the current vertical position of the scroll bar for the first element in the set of matched elements.
+      // .fadeIn(): Display the matched elements by fading them to opaque.
+      // .fadeOut(): Hide the matched elements by fading them to transparent.
+      // .animate(): Perform a custom animation of a set of CSS properties.
+
+      // Display/Hide return to top button
+      $(window).scroll(function() {
+        // Height (in pixels) of the browser window viewport including, if
+        // rendered, the horizontal scrollbar
+        var intViewportHeight = window.innerHeight;
+        if($(this).scrollTop() > intViewportHeight) {
+          $('.return-to-top').fadeIn(200);
+        }
+        else {
+          $('.return-to-top').fadeOut(200);
+        }
+      });
+
+      // Return to top
+      $('.return-to-top').click(function() {
+        $('html').animate({
+          // scrollTop is a property of the DOM object */
+          // Return the scrollTop property: element.scrollTop
+          // Set the scrollTop property: element.scrollTop = pixels
+          scrollTop: 0
+        }, 500);
+      });
+    </script>
   </body>
 </html>
