@@ -5,17 +5,12 @@ var margin = {top: 20, right: 50, bottom: 20, left: 50},
 var i = 0,
     duration = 750,
     root;
-/*
-var tree = d3.layout.tree()
-    .size([height, width]);
-*/
 
 var tree = d3.layout.tree()
-    .separation(function(a, b) { return ((a.parent == root) && (b.parent == root)) ? 3 : 1; })
     .size([height, width]);
 
-var diagonal = d3.svg.diagonal().projection(function(d) { 
-    return [d.y, d.x]; 
+var diagonal = d3.svg.diagonal().projection(function(d) {
+    return [d.y, d.x];
 });
 
 var svg = d3.select("body").append("svg")
@@ -29,6 +24,11 @@ d3.json("skills.json", function(error, skills) {
   root = skills;
   root.x0 = height / 2;
   root.y0 = 0;
+  console.log(root.children[0]);
+  expand(root.children[0]);
+  collapse(root.children[1]);
+  collapse(root.children[2]);
+  collapse(root.children[3]);
   update(root);
 });
 
@@ -141,18 +141,18 @@ function collapse(d) {
   }
 }
 
-function expand(d){   
+function expand(d){
     var children = (d.children)?d.children:d._children;
-    if (d._children) {        
+    if (d._children) {
         d.children = d._children;
-        d._children = null;       
+        d._children = null;
     }
     if(children)
       children.forEach(expand);
 }
 
 function expandAll(){
-    expand(root); 
+    expand(root);
     update(root);
 }
 
