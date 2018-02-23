@@ -32,8 +32,13 @@ function preloadImage (image) {
 
 // Intersection observer's callback
 function callback (entries, observer) {
+  // Disconnect if we've already loaded all of the images
+  if (imageCount === 0) {
+    observer.disconnect();
+  }
   entries.forEach(function (entry) {
     if (entry.intersectionRatio > 0) {
+       imageCount--;
       // Stop observing target
       observer.unobserve(entry.target);
       // Preload target in browser's cache
@@ -54,6 +59,8 @@ function loadImagesImmediately (images) {
 
 // Return a list of all elements within the document with the specified class
 var images = document.querySelectorAll('.js-lazy-load');
+// Need this in order to disconnect the observer when all images are loaded
+var imageCount = images.length;
 
 // If the browser supports IntersectionObserver
 if ('IntersectionObserver' in window) {
@@ -81,8 +88,6 @@ if ('IntersectionObserver' in window) {
     // Observe image
     io.observe(image);
   });
-  // Disconnect the observer
-  io.disconnect();
 } else {
   loadImagesImmediately(images);
 }
