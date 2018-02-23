@@ -40,8 +40,6 @@ function callback (entries, observer) {
       preloadImage(entry.target);
     }
   })
-  // Disconnect the observer
-  observer.disconnect();
 }
 
 // Load images immediately if intersection observer is not supported by the
@@ -83,6 +81,8 @@ if ('IntersectionObserver' in window) {
     // Observe image
     io.observe(image);
   });
+  // Disconnect the observer
+  observer.disconnect();
 } else {
   loadImagesImmediately(images);
 }
