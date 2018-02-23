@@ -58,6 +58,9 @@
                   "name": "Lighthouse"
                 },
                 {
+                  "name": "Intersection Observer"
+                },
+                {
                   "name": "PageSpeed Insights"
                 },
                 {
