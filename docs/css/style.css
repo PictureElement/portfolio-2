@@ -60,6 +60,7 @@ a:hover {
 /*---------------------------- RETURN TO TOP BTN ----------------------------*/
 
 .return-to-top {
+  display: none;
   position: fixed;
   bottom: 15px;
   right: 15px;
