@@ -11,7 +11,7 @@ background and skills.
 The site is adaptive and responsive. It was built from scratch using a custom
 12-column Flexbox grid system and a mobile-first approach.
 
-The site lives here: https://pictureelement.github.io/portfolio-2-html5/
+The site lives here: https://pictureelement.github.io/portfolio-2/
 
 ## Page Samples
 

@@ -67,10 +67,10 @@
                   "name": "Vendor-prefixed CSS"
                 },
                 {
-                  "name": "Clean unnecessary CSS"
+                  "name": "Remove unused CSS"
                 },
                 {
-                  "name": "Minify resources"
+                  "name": "Resource minification"
                 },
                 {
                   "name": "Inline critical CSS"
@@ -79,7 +79,7 @@
                   "name": "Optimize images"
                 },
                 {
-                  "name": "async & defer attributes"
+                  "name": "async & defer"
                 },
                 {
                   "name": "System fonts"
@@ -210,7 +210,7 @@
               "name": "Offline content"
             },
             {
-              "name": "Served over HTTPS"
+              "name": "HTTPS"
             },
             {
               "name": "Fast load"
@@ -264,7 +264,10 @@
               "name": "Linux"
             },
             {
-              "name": "Sublime Text 3"
+              "name": "Sublime Text"
+            },
+            {
+              "name": "Atom"
             }
           ]
         }
@@ -319,6 +322,9 @@
         },
         {
           "name": "R"
+        },
+        {
+          "name": "VHDL"
         },
         {
           "name": "Bash"
