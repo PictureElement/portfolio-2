@@ -123,15 +123,18 @@
               ]
             },
             {
-              "name": "HTML",
+              "name": "HTML5",
               "children": [{
+                  "name": "HTML5 Semantics"
+                },
+                {
+                  "name": "HTML5 Canvas"
+                },
+                {
                   "name": "Validation",
                   "children": [{
                     "name": "W3C markup val. svc."
                   }]
-                },
-                {
-                  "name": "Semantic HTML"
                 }
               ]
             },
