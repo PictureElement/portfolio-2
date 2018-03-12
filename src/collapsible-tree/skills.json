@@ -1,94 +1,16 @@
 {
   "name": "Skills",
-  "children": [{
+  "children": [
+    {
       "name": "Web development",
-      "children": [{
+      "children": [
+        {
           "name": "Front-end",
-          "children": [{
-              "name": "Multimedia tools",
-              "children": [{
-                  "name": "Adobe Photoshop"
-                },
-                {
-                  "name": "Adobe Illustrator"
-                },
-                {
-                  "name": "Adobe Lightroom"
-                },
-                {
-                  "name": "Adobe Premiere Pro"
-                },
-                {
-                  "name": "GraphicsMagick"
-                }
-              ]
-            },
-            {
-              "name": "Responsive web design",
-              "children": [{
-                  "name": "Common responsive patterns"
-                },
-                {
-                  "name": "Media queries"
-                },
-                {
-                  "name": "Flexbox"
-                },
-                {
-                  "name": "Responsive images",
-                  "children": [{
-                      "name": "srcset attribute"
-                    },
-                    {
-                      "name": "<picture> element"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Web authoring & debugging",
-              "children": [{
-                "name": "Chrome DevTools"
-              }]
-            },
-            {
-              "name": "Web perf. & opt.",
-              "children": [{
-                  "name": "Lighthouse"
-                },
-                {
-                  "name": "Intersection Observer"
-                },
-                {
-                  "name": "PageSpeed Insights"
-                },
-                {
-                  "name": "Vendor-prefixed CSS"
-                },
-                {
-                  "name": "Remove unused CSS"
-                },
-                {
-                  "name": "Resource minification"
-                },
-                {
-                  "name": "Inline critical CSS"
-                },
-                {
-                  "name": "Optimize images"
-                },
-                {
-                  "name": "async & defer"
-                },
-                {
-                  "name": "System fonts"
-                }
-              ]
-            },
+          "children": [
             {
               "name": "Toolkits",
-              "children": [{
+              "children": [
+                {
                   "name": "Font Awesome"
                 },
                 {
@@ -101,143 +23,48 @@
             },
             {
               "name": "CSS",
-              "children": [{
-                  "name": "Frameworks",
-                  "children": [{
-                      "name": "Bootstrap"
-                    }
-                  ]
-                },
+              "children": [
                 {
-                  "name": "Validation",
-                  "children": [{
-                    "name": "W3C CSS val. svc."
-                  }]
-                },
-                {
-                  "name": "Preprocessors",
-                  "children": [{
-                    "name": "SASS*"
-                  }]
+                  "name": "Bootstrap"
                 }
               ]
             },
             {
               "name": "HTML5",
-              "children": [{
+              "children": [
+                {
                   "name": "HTML5 Semantics"
                 },
                 {
                   "name": "HTML5 Canvas"
-                },
-                {
-                  "name": "Validation",
-                  "children": [{
-                    "name": "W3C markup val. svc."
-                  }]
                 }
               ]
             },
             {
               "name": "JavaScript",
-              "children": [{
-                  "name": "Task Runners",
-                  "children": [{
-                      "name": "GruntJS",
-                      "children": [{
-                          "name": "autoprefixer"
-                        },
-                        {
-                          "name": "purifycss"
-                        },
-                        {
-                          "name": "cssmin"
-                        },
-                        {
-                          "name": "uglify"
-                        },
-                        {
-                          "name": "critical"
-                        },
-                        {
-                          "name": "htmlmin"
-                        }
-                      ]
-                    }
-                  ]
+              "children": [
+                {
+                  "name": "GruntJS"
                 },
                 {
-                  "name": "Data interchange formats",
-                  "children": [{
-                    "name": "JSON",
-                    "children": [{
-                        "name": "JSONLint"
-                      }
-                    ]
-                  }]
-                },
-                {
-                  "name": "Libraries",
-                  "children": [{
-                      "name": "jQuery",
-                      "children": [{
-                          "name": "DOM manipulation"
-                        },
-                        {
-                          "name": "Event listeners"
-                        }
-                      ]
-                    },
-                    {
-                      "name": "D3.js"
-                    }
-                  ]
-                },
-                {
-                  "name": "Frameworks",
-                  "children": [{
-                      "name": "AngularJS*"
-                    },
-                    {
-                      "name": "ReactJS*"
-                    }
-                  ]
+                  "name": "jQuery"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Progressive Web Apps",
-          "children": [{
-              "name": "Offline content"
-            },
+          "name": "CMS",
+          "children": [
             {
-              "name": "HTTPS"
-            },
-            {
-              "name": "Fast load"
-            },
-            {
-              "name": "Cross-browser support"
-            },
-            {
-              "name": "Add to Home Screen prompt"
-            },
-            {
-              "name": "Responsive"
+              "name": "WordPress"
             }
           ]
         },
         {
-          "name": "CMS",
-          "children": [{
-            "name": "WordPress"
-          }]
-        },
-        {
           "name": "Misc. frameworks",
-          "children": [{
+          "children": [
+            {
               "name": "Electron"
             },
             {
@@ -246,18 +73,9 @@
           ]
         },
         {
-          "name": "Hosting",
-          "children": [{
-              "name": "cPanel"
-            },
-            {
-              "name": "Bluehost"
-            }
-          ]
-        },
-        {
           "name": "Essential",
-          "children": [{
+          "children": [
+            {
               "name": "Git"
             },
             {
@@ -278,47 +96,9 @@
     },
     {
       "name": "Programming",
-      "children": [{
-          "name": "C/C++",
-          "children": [{
-              "name": "IDEs",
-              "children": [{
-                  "name": "Eclipse"
-                },
-                {
-                  "name": "Code::Blocks"
-                },
-                {
-                  "name": "Geany"
-                }
-              ]
-            },
-            {
-              "name": "Debugging",
-              "children": [{
-                "name": "Valgrind"
-              }]
-            },
-            {
-              "name": "Libraries",
-              "children": [{
-                  "name": "PAPI"
-                },
-                {
-                  "name": "OpenMP"
-                },
-                {
-                  "name": "MPICH"
-                },
-                {
-                  "name": "Blitz++"
-                },
-                {
-                  "name": "Eigen"
-                }
-              ]
-            }
-          ]
+      "children": [
+        {
+          "name": "C/C++"
         },
         {
           "name": "JavaScript"
@@ -327,162 +107,13 @@
           "name": "R"
         },
         {
-          "name": "VHDL"
-        },
-        {
           "name": "Bash"
-        },
-        {
-          "name": "MIPS assembly"
         },
         {
           "name": "Algorithms"
         },
         {
-          "name": "Object-oriented design"
-        }
-      ]
-    },
-    {
-      "name": "Computer security",
-      "children": [{
-          "name": "Anonymity",
-          "children": [{
-              "name": "VPN"
-            },
-            {
-              "name": "Tor"
-            },
-            {
-              "name": "ProxyChains"
-            }
-          ]
-        },
-        {
-          "name": "Footprinting",
-          "children": [{
-            "name": "Nmap",
-            "children": [{
-              "name": "NSE"
-            }]
-          }]
-        },
-        {
-          "name": "Wireless network attacks",
-          "children": [{
-              "name": "Aircrack-ng suite"
-            },
-            {
-              "name": "Reaver"
-            }
-          ]
-        },
-        {
-          "name": "MitM attacks",
-          "children": [{
-              "name": "Burp suite"
-            },
-            {
-              "name": "Squid caching proxy"
-            },
-            {
-              "name": "Evil twin & Rogue AP"
-            }
-          ]
-        },
-        {
-          "name": "Vulnerability exploitation",
-          "children": [{
-              "name": "NSE"
-            },
-            {
-              "name": "Metasploit"
-            }
-          ]
-        },
-        {
-          "name": "Penetration testing",
-          "children": [{
-              "name": "Kali Linux"
-            },
-            {
-              "name": "Metasploitable"
-            }
-          ]
-        },
-        {
-          "name": "DNS spoofing",
-          "children": [{
-              "name": "Social Engineer Toolkit"
-            },
-            {
-              "name": "DNSChef DNS proxy"
-            }
-          ]
-        },
-        {
-          "name": "Offline/Online psw cracking",
-          "children": [{
-              "name": "John the Ripper"
-            },
-            {
-              "name": "THC-Hydra"
-            }
-          ]
-        },
-        {
-          "name": "Signal jamming & DoS attacks",
-          "children": [{
-              "name": "Aircrack-ng suite"
-            },
-            {
-              "name": "SYN flooding"
-            },
-            {
-              "name": "Slow HTTP attack (Slowloris)"
-            }
-          ]
-        },
-        {
-          "name": "Keyloggers"
-        },
-        {
-          "name": "Reverse shells",
-          "children": [{
-              "name": "Metasploit"
-            },
-            {
-              "name": "Netcat"
-            },
-            {
-              "name": "NSE"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Other",
-      "children": [{
-          "name": "Gnuplot"
-        },
-        {
-          "name": "GNU Octave"
-        },
-        {
-          "name": "Magic VLSI"
-        },
-        {
-          "name": "Word processor"
-        },
-        {
-          "name": "Spread sheet"
-        },
-        {
-          "name": "Presentation software"
-        },
-        {
-          "name": "Google Drive"
+          "name": "Programming paradigms"
         }
       ]
     }

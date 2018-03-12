@@ -25,9 +25,6 @@ d3.json("skills.json", function(error, skills) {
   root.x0 = height / 2;
   root.y0 = 0;
   expand(root.children[0]);
-  collapse(root.children[1]);
-  collapse(root.children[2]);
-  collapse(root.children[3]);
   update(root);
 });
 
